@@ -28,6 +28,8 @@ The complete **Python Automation Toolkit** includes **25+ fully-implemented, tes
 👉 **[Download the Full 25+ Scripts Bundle on Gumroad ($19)](https://abidawave.gumroad.com/l/python-automation-toolkit)**
 
 ---
+📄 License
+MIT License for the sample scripts in this repository.
 
 ## 🛠️ Quickstart
 
@@ -41,5 +43,4 @@ pip install psutil
 
 # Run server monitor
 python server_resource_monitor.py --help
-📄 License
-MIT License for the sample scripts in this repository.
+
