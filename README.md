@@ -41,3 +41,5 @@ pip install psutil
 
 # Run server monitor
 python server_resource_monitor.py --help
+📄 License
+MIT License for the sample scripts in this repository.
