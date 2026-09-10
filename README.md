@@ -8,10 +8,11 @@ A production-tested collection of robust Python automation scripts designed for 
 
 ## 📦 What's in this Free Showcase
 
-This repository contains 2 standalone utilities demonstrating the architecture and error handling used across the entire suite:
+This repository contains 3 standalone utilities demonstrating production architecture, robust CLI parsing, and strict error handling:
 
-1. **`server_resource_monitor.py`**: Real-time cross-platform hardware sampling (CPU, RAM, Disk partitions) with configurable warning thresholds.
-2. **`bulk_file_renamer.py`**: Safe regex-based batch renamer with file collision checks and audit logging.
+1. **`server_resource_monitor.py`**: Real-time cross-platform hardware sampling (CPU, RAM, Disk partitions) with configurable warning triggers.
+2. **`bulk_file_renamer.py`**: Safe regex-based batch renamer featuring automated file collision checks and audit logging.
+3. **`stale_file_purger.py`**: Automated directory maintenance utility that scans targets and purges log or temp files older than a specified retention threshold.
 
 ---
 
@@ -28,19 +29,22 @@ The complete **Python Automation Toolkit** includes **25+ fully-implemented, tes
 👉 **[Download the Full 25+ Scripts Bundle on Gumroad ($19)](https://abidawave.gumroad.com/l/python-automation-toolkit)**
 
 ---
-📄 License
-MIT License for the sample scripts in this repository.
 
 ## 🛠️ Quickstart
 
 ```bash
 # Clone the repository
-git clone [https://github.com/OussamaAbida/python-sysadmin-automation-pack.git](https://github.com/OussamaAbida/python-sysadmin-automation-pack.git)
+git clone [https://github.com/oussabida01-jpg/python-sysadmin-automation-pack.git](https://github.com/oussabida01-jpg/python-sysadmin-automation-pack.git)
 cd python-sysadmin-automation-pack
 
-# Install requirements
+# Install dependencies
 pip install psutil
 
-# Run server monitor
+# 1. Run server monitor
 python server_resource_monitor.py --help
 
+# 2. Run regex file renamer (dry-run mode)
+python bulk_file_renamer.py --dry-run
+
+# 3. Run stale file purger (example: purge logs older than 30 days)
+python stale_file_purger.py --path /var/log/app --days 30
