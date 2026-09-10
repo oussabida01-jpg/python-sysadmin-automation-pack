@@ -2,16 +2,19 @@
 
 A production-tested collection of robust Python automation scripts designed for systems administrators, DevOps practitioners, and operations engineers.
 
-[![Gumroad](https://img.shields.io/badge/Get%20Full%20Toolkit%20(25%2B%20Scripts)-%2419-ff90e8?style=for-the-badge&logo=gumroad)](https://abidawave.gumroad.com/l/python-automation-toolkit)
+[![Gumroad](https://img.shields.io/badge/Full%20Toolkit%20(25%2B%20Scripts)-50%25%20OFF%20(%249.50)-ff90e8?style=for-the-badge&logo=gumroad)](https://abidawave.gumroad.com/l/python-automation-toolkit/DEV50)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> 🚀 **Launch Offer:** Get the complete 25+ production scripts bundle for **$9.50** (50% OFF) using coupon code **`DEV50`** at checkout.
 
 ---
 
 ## 📦 What's in this Free Showcase
 
-This repository contains 3 standalone utilities demonstrating production architecture, robust CLI parsing, and strict error handling:
+This repository contains 3 fully functional standalone utilities demonstrating production architecture, robust CLI parsing, and strict error handling:
 
 1. **`server_resource_monitor.py`**: Real-time cross-platform hardware sampling (CPU, RAM, Disk partitions) with configurable warning triggers.
-2. **`bulk_file_renamer.py`**: Safe regex-based batch renamer featuring automated file collision checks and audit logging.
+2. **`bulk_file_renamer.py`**: Safe regex-based batch renamer featuring automated collision checks and timestamped audit logging.
 3. **`stale_file_purger.py`**: Automated directory maintenance utility that scans targets and purges log or temp files older than a specified retention threshold.
 
 ---
@@ -26,7 +29,7 @@ The complete **Python Automation Toolkit** includes **25+ fully-implemented, tes
 - 🗄️ **Database & Backup Operations**: Automated database dumpers (SQLite/MySQL/PostgreSQL), stale file retention purgers, and S3-compatible cloud uploaders.
 - ⚙️ **System & Network Utilities**: Port connectivity checkers, duplicate MD5 file cleaners, and web server log analyzers.
 
-👉 **[Download the Full 25+ Scripts Bundle on Gumroad ($19)](https://abidawave.gumroad.com/l/python-automation-toolkit)**
+👉 **[Download Full 25+ Scripts Bundle on Gumroad ($9.50 with code DEV50)](https://abidawave.gumroad.com/l/python-automation-toolkit/DEV50)**
 
 ---
 
